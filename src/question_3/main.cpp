@@ -1,10 +1,13 @@
 #include "question3.h"
 
-using std::cout;
+using std::cout; using std::string;
 
 int main()
 {
-    std::string rna = transcribe_dna_into_rna("GAT");
+    cout<<"Start \n";
+    string rna = transcribe_dna_into_rna("GATGGAACTTGACTACGTAAATT");
     cout<<""<<rna<<"\n";
+
+    cout<<"Stop \n";
     return 0;
 }
