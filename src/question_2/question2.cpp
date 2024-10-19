@@ -7,7 +7,7 @@ bool test_config()
     return true;
 }
 
-bool is_palindrome(const string str)
+bool is_palindrome(const string &str)
 {
    string reverse_str = reverse_string(str);
 
